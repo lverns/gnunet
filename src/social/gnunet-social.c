@@ -1164,7 +1164,6 @@ run (void *cls, char *const *args, const char *cfgfile,
   {
     GNUNET_log (GNUNET_ERROR_TYPE_ERROR,
                 _("--place missing or invalid.\n"));
-    /* FIXME: why does it segfault here? */
     exit_fail ();
     return;
   }
